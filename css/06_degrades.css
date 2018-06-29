@@ -1,0 +1,32 @@
+.contenu{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* gradient => dégradé -  */
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.contenu1{
+    background: linear-gradient(to left, #4ca440, #392f97);
+    /* gradient => dégradé -  */
+    width: 10em;
+    height: 10em;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.contenu2{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* gradient => dégradé -  */
+    width: 20em;
+    height: 20em;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.contenu3{
+    background: linear-gradient(to left, #40a497, #6840a4);
+    /* gradient => dégradé -  */
+    width: 45em;
+    height: 45em;
+    margin: 0 auto;
+    border-radius: 20%;
+}

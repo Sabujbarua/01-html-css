@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="developer web">
+    <link rel="stylesheet" href="css/06bis_liens.css">
+    <title>Les Liens</title>
+</head>
+    
+<body>
+    <!-- <h1 style="text-align: center; color: skyblue">Les Liens</h1> -->
+
+
+    <h1>Les liens d'une page HTML ou la navigation</h1>
+    <h2 id="top"> Les ancres: liens dans la même page</h2>
+
+    <p><a href="#interieur">Cliquer ici pour aller en page 2</a></p>
+    <p><a href="#onglet">Cliquer ici pour aller en page 2</a></p>
+    <p><a href="#site">un auter site</a></p>
+    <p><a href="#telecharger">telecharger un document</a></p>
+    <p><a href="#visualiser">visualiser le PDF</a></p>
+    <p><a href="#download">Télecharger un PDF</a></p>
+    <p><a href="#image">Mette un lien sur une image</a></p>
+    <p><a href="#print">Imprimer la page en cours</a></p>
+
+    <h2 id="interieur">une auter page de même site</h2>
+    <a href="06bis_liens_page.html">Cliquer ici pour aller en page 2</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+
+    <h2 id="onglet">un nouvel onglet</h2>
+    <a href="06bis_liens_page.html" target="_blank">Cliquer ici pour aller en page 2</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <h2 id="site">un auter site</h2>
+    <a href="https://slack.com/intl/fr-fr/downloads/windows" title="site de slack"> site de slack</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <h2 id="telecharger">telecharger un fichier</h2>
+    <a href="img/document.doc">telecharger un document</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <!-- h2#visualiser -->
+    <h2 id="visualiser">Ouvrir un pdf dans mon navigateur</h2>
+    <a href="img/image.pdf">visualiser le PDF</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <!-- h2#download -->
+    <h2 id="download">Télecharger un PDF</h2>
+    <a href="img/image.pdf" download>L'attribut DOWNLOAD propose de télechargr le fichier</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <!-- h2#image -->
+    <h2 id="image">Mette un lien sur une image</h2>
+    <a href="https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap">
+        <img src="img/image.jpg" alt="lion">
+    </a>
+    <a href="#top">remonter</a>
+    <hr>
+
+    <!-- h2#print -->
+    <h2 id="print">Imprimer la page en cours</h2>
+    <a href="" onclick="window.print()" > onclick => je détecte si on a Cliqué / window => la page html actuelle / print() => function JavaScript pour Imprimer</a>
+    <a href="#top">remonter</a>
+    <hr>
+
+</body>
+    
+</html>

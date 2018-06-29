@@ -1,0 +1,29 @@
+p{
+    background-color: aquamarine;
+}
+p span{
+    background-color: #000;
+}
+body{
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    background-color: lightsteelblue;
+    margin: 0 auto;
+}
+.photo{
+    height: 11vh;
+    width: 7vw;
+    padding: 5vh;
+    background: url(../img/background-gold-bokeh.jpg);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

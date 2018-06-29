@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(117, 137, 230, 0.5);
+}
+.colorb{
+    background: rgba(255, 255, 255, 0.5);
+}
+#colorc{
+    color: rgba(252, 7, 7, 0.5);
+}

@@ -1,0 +1,14 @@
+body{
+    background: rgb(247, 243, 243);
+}
+label{
+    float: left;
+    width: 190px;
+    color: #fff;
+    background: #cc3d74; 
+    margin-left: 5px; 
+}
+fieldset{
+    /* border: 0px; */
+    
+}
